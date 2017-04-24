@@ -1,2 +1,7 @@
-Notes.txt
+app.use can accept a route arg
+app.listen accepts additional args for hostname and max backlog of pending connections (defaults to 511)
 
+can use regex w/ dynamic routes
+ex: '/:id([0-9]{5})'
+
+curl -X can simulate http requests, but manual alludes to a 'proper http request'
